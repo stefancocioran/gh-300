@@ -496,6 +496,7 @@ h1 {
 .choice-text {
   color: #34443b;
   font-size: 14px;
+  font-weight: 400;
   line-height: 1.55;
 }
 

@@ -27,6 +27,12 @@ function renderMarkdown(value) {
   return html;
 }
 
+function renderOptionText(value) {
+  return escapeHtml(value)
+    .replace(/\*\*(.*?)\*\*/g, "$1")
+    .replace(/\*([^*]+)\*/g, "$1");
+}
+
 function renderRichText(value) {
   const blocks = value.split(/\n\s*\n/).filter(Boolean);
   return blocks
@@ -235,7 +241,7 @@ function renderQuestion() {
             ${submitted ? "disabled" : ""}
           />
           <span class="choice-key">${escapeHtml(option.key)}</span>
-          <span class="choice-text">${renderMarkdown(option.text)}</span>
+          <span class="choice-text">${renderOptionText(option.text)}</span>
         </label>`;
     })
     .join("");
