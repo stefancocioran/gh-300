@@ -76,7 +76,17 @@ Passing GH-300 is not about reading more. It’s about **practicing how to think
 
 This repo includes **750 exam-style questions** designed to simulate the real exam, expose weak areas, and help you recognize the distinctions that matter.
 
-All quizzes are delivered through **Microsoft Forms**, giving you an **exam-like experience** with a score at the end and answer explanations.
+The linked quizzes are available through **Microsoft Forms**, giving you an **exam-like experience** with a score at the end and answer explanations. The Markdown practice sets are also available in the local browser quiz below.
+
+### Run the local quiz app
+
+The practice questions are also available in a local browser-based quiz. It gives instant feedback after each answer and highlights correct choices and any selected incorrect choices. After submitting, choose **See more** to expand the explanation, study tips, key takeaway, and source links from the detailed Markdown files.
+
+1. Install [Node.js](https://nodejs.org/) 18 or newer.
+2. From the repository root, run `node quiz/server.js`.
+3. Open [http://127.0.0.1:4173](http://127.0.0.1:4173) in your browser.
+
+Choose any detailed or raw Markdown test as its own quiz, or start the **Ultimate Practice Test**. The Ultimate quiz combines questions by question number, avoiding duplicates and using detailed context when one is available. Matching raw questions also show the detailed context when available. The app reads the Markdown files directly and does not save quiz responses. It reflects the content currently in the repository; Detailed Practice Tests 07 and 08 currently contain 10 and 5 questions respectively.
 
 ### Coverage
 
