@@ -9,9 +9,14 @@ function parseOptions(optionsText, sourceFile, questionId) {
     const start = match.index + match[0].length;
     const end = optionMatches[index + 1]?.index ?? optionsText.length;
     const continuation = optionsText.slice(start, end).trim();
+    const text = [match[2], continuation]
+      .filter(Boolean)
+      .join(" ")
+      .trim()
+      .replace(/\*\*(.*?)\*\*/g, "$1");
     return {
       key: match[1],
-      text: [match[2], continuation].filter(Boolean).join(" ").trim(),
+      text,
     };
   });
 

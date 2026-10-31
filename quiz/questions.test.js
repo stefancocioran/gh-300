@@ -38,6 +38,19 @@ test("every question has valid choices and at least one correct answer", () => {
   }
 });
 
+test("answer options do not contain bold Markdown formatting", () => {
+  for (const quiz of [...quizzes, ultimate]) {
+    for (const question of quiz.questions) {
+      for (const option of question.options) {
+        assert.ok(
+          !option.text.includes("**"),
+          `${quiz.id} question ${question.id} option ${option.key} contains bold Markdown`,
+        );
+      }
+    }
+  }
+});
+
 test("ultimate questions prefer detailed explanations when available", () => {
   const detailedIds = new Set(
     quizzes
