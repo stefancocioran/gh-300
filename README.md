@@ -1,6 +1,6 @@
 # GH-300 GitHub Copilot: Pass The Exam, Deeply Understand Copilot
 
-With around **750 exam-style questions** paired with **high-impact explanations**, this repository is designed to help you pass the **Microsoft GitHub Copilot certification (GH-300)** exam with a clear, structured learning path.
+With around 750 exam-style questions paired with high-impact explanations, this repository is designed to help you pass the Microsoft GitHub Copilot certification (GH-300) exam with a clear, structured learning path.
 
 It teaches GitHub Copilot from the ground up, starting with fundamentals that stay true across real developer workflows. You will build a solid foundation in core concepts like prompting, context, suggestions, chat, plans, governance, privacy boundaries, and Responsible AI.
 
@@ -8,12 +8,23 @@ After the fundamentals are clear, each concept is connected to GitHub Copilot fe
 
 <img src="./source/images/mics/gh-300.png"/>
 
+## Project summary
+
+This repository is both a study guide and a practice platform. It combines:
+
+- conceptual knowledge documents covering GH-300 topics
+- multiple sets of exam-style questions and answer explanations
+- a browser-based local quiz app for quick review
+- references to official GitHub and Microsoft learning sources
+
+The purpose is not just to memorise product facts. The real goal is to build a practical mental model of how GitHub Copilot works in real development contexts and how to apply that knowledge under exam conditions.
+
 ## Who this is for
-- **GitHub Copilot certification (GH-300) candidates** who want a clear, structured path to pass confidently
+- GitHub Copilot certification (GH-300) candidates who want a clear, structured path to pass confidently
 - Developers who have used Copilot a little, but want a stronger mental model of how it actually works
 - Engineers who want to understand prompting, context, chat, suggestions, plans, governance, and safe usage in a practical way
-- Readers who want to understand both the **“why”** and the **“how”** of GitHub Copilot, not just memorize features
-- **Deep-knowledge learners** who want strong fundamentals first, then mapping to real Copilot features and exam scenarios
+- Readers who want to understand both the “why” and the “how” of GitHub Copilot, not just memorize features
+- Deep-knowledge learners who want strong fundamentals first, then mapping to real Copilot features and exam scenarios
 
 ## What you will learn
 - What GitHub Copilot is, how it works, and where it fits in real developer workflows  
@@ -32,27 +43,36 @@ After the fundamentals are clear, each concept is connected to GitHub Copilot fe
 
 ## Community Discussion & Study Group
 
-This GitHub Discussions started as part of an active **study group and discussions in 2025**, before the repository was made public. During that phase, a large number of real discussions, clarifications, and deep concept breakdowns were shared and refined.
+This GitHub Discussions started as part of an active study group and conversations in 2025, before the repository was made public. During that phase, a large number of real discussions, clarifications, and deep concept breakdowns were shared and refined.
 
-The discussions remain a **high-value source of insights**, covering tricky scenarios, common misunderstandings, and real exam thinking patterns.
+The discussions remain a high-value source of insights, covering tricky scenarios, common misunderstandings, and real exam thinking patterns.
 
 You can explore and see all the discussions here:   
-[GiHub 300 Exame Discussions](https://github.com/ElmentorProgram/gh300/discussions)
+[GitHub 300 Exam Discussions](https://github.com/ElmentorProgram/gh300/discussions)
 
 ## Why use this repo for study/revision?
-This repo doesn’t replace **official GitHub documentation** or **Microsoft Learn**. It **compresses** them into **high signal** study material and practice tests that focus on the concepts, distinctions, and patterns that matter most.
+This repo doesn’t replace official GitHub documentation or Microsoft Learn. It compresses them into high-signal study material and practice tests that focus on the concepts, distinctions, and patterns that matter most.
 
-If you feel **overwhelmed by the volume of product details**, feature variations, policy differences, and prompt-related guidance, this repo is built to reduce noise without losing what matters. The goal is to shorten the path to **exam-ready, deep understanding** by focusing on the key knowledge you need to interpret GitHub Copilot correctly under exam pressure.
+If you feel overwhelmed by the volume of product details, feature variations, policy differences, and prompt-related guidance, this repo is built to reduce noise without losing what matters. The goal is to shorten the path to exam-ready, deep understanding by focusing on the key knowledge you need to interpret GitHub Copilot correctly under exam pressure.
 
-Use **official docs** when you want the **full depth, latest wording, and original context**. Use this repo when you want to **learn faster**, **revise more effectively**, and still understand the **“why”** behind Copilot features, behaviors, and safe usage decisions.
+Use official docs when you want the full depth, latest wording, and original context. Use this repo when you want to learn faster, revise more effectively, and still understand the “why” behind Copilot features, behaviors, and safe usage decisions.
 
 ## How to use this repo
--  Start with the knowledge documents in order. Each document builds on the previous one.
--  Read for understanding first, then revisit documents when you want a fast, high-signal refresher.
--  Use the Raw practice tests as a diagnostic to identify weak areas and confusion points.
--  When you miss a question, use the Detailed version to repair the underlying concept.
--  Revisit the knowledge documents after practice so the ideas become clearer and easier to retain.
--  As you revise, aim to explain concepts in your own words instead of memorizing wording.
+- Start with the knowledge documents in order. Each document builds on the previous one.
+- Read for understanding first, then revisit documents when you want a fast, high-signal refresher.
+- Use the raw practice tests as a diagnostic to identify weak areas and confusion points.
+- When you miss a question, use the detailed version to repair the underlying concept.
+- Revisit the knowledge documents after practice so the ideas become clearer and easier to retain.
+- As you revise, aim to explain concepts in your own words instead of memorizing wording.
+
+## Repository structure
+
+- `quiz/` – local browser-based quiz app used to run the practice tests
+- `source/docs/kb/` – knowledge-base / concept guides, one per topic area
+- `source/docs/practice/detailed/` – detailed questions with explanations and source links
+- `source/docs/practice/raw/` – raw question sets used for quicker review and diagnostics
+- `source/images/` – images and branding assets
+- `README.md` – project overview, usage guidance, and links to the study material
 
 ## Documentation
 
@@ -69,24 +89,35 @@ Use **official docs** when you want the **full depth, latest wording, and origin
 - [Spaces, Knowledge Bases, and MCP Server](./source/docs/kb/11-spaces-knowledge-bases-and-mcp-server.kb.md)  
 - [Agents, CLI, Metrics, and Advanced Operational Capabilities](./source/docs/kb/12-agents-cli-metrics-and-advanced-operational-capabilities.kb.md)  
 
+## Contributing
+
+Contributions are welcome if you want to improve the study material, correct a mistake, clarify explanations, or add new practice content.
+
+Good contribution areas include:
+- correcting typos and broken links
+- improving explanations for confusing concepts
+- adding missing examples or edge-case scenarios
+- improving the quiz app experience or documentation
+
+If you want to contribute, open an issue with the problem or proposed improvement, or submit a pull request with a focused change.
 
 ## Practice Tests
 
-Passing GH-300 is not about reading more. It’s about **practicing how to think under exam conditions**.
+Passing GH-300 is not about reading more. It’s about practicing how to think under exam conditions.
 
-This repo includes **750 exam-style questions** designed to simulate the real exam, expose weak areas, and help you recognize the distinctions that matter.
+This repo includes 750 exam-style questions designed to simulate the real exam, expose weak areas, and help you recognize the distinctions that matter.
 
-The linked quizzes are available through **Microsoft Forms**, giving you an **exam-like experience** with a score at the end and answer explanations. The Markdown practice sets are also available in the local browser quiz below.
+The linked quizzes are available through Microsoft Forms, giving you an exam-like experience with a score at the end and answer explanations. The Markdown practice sets are also available in the local browser quiz below.
 
 ### Run the local quiz app
 
-The practice questions are also available in a local browser-based quiz. It gives instant feedback after each answer and highlights correct choices and any selected incorrect choices. After submitting, choose **See more** to expand the explanation, study tips, key takeaway, and source links from the detailed Markdown files.
+The practice questions are also available in a local browser-based quiz. It gives instant feedback after each answer and highlights correct choices and any selected incorrect choices. After submitting, choose See more to expand the explanation, study tips, key takeaway, and source links from the detailed Markdown files.
 
 1. Install [Node.js](https://nodejs.org/) 18 or newer.
 2. From the repository root, run `node quiz/server.js`.
 3. Open [http://127.0.0.1:4173](http://127.0.0.1:4173) in your browser.
 
-Choose any detailed or raw Markdown test as its own quiz, or start the **Ultimate Practice Test**. The Ultimate quiz combines questions by question number, avoiding duplicates and using detailed context when one is available. Matching raw questions also show the detailed context when available. The app reads the Markdown files directly and does not save quiz responses. It reflects the content currently in the repository; Detailed Practice Tests 07 and 08 currently contain 10 and 5 questions respectively.
+Choose any detailed or raw Markdown test as its own quiz, or start the Ultimate Practice Test. The Ultimate quiz combines questions by question number, avoiding duplicates and using detailed context when one is available. Matching raw questions also show the detailed context when available. The app reads the Markdown files directly and does not save quiz responses. It reflects the content currently in the repository; Detailed Practice Tests 07 and 08 currently contain 10 and 5 questions respectively.
 
 ### Coverage
 
@@ -122,7 +153,6 @@ Choose any detailed or raw Markdown test as its own quiz, or start the **Ultimat
 | Detailed Practice Test 08 | 211–240 | [Start Quiz](https://forms.office.com/r/dvwkHZYdtE) | [Start Quiz](https://forms.office.com/r/7fmPrhSAWX) | [Answer Sheet & Explanation](./source/docs/practice/detailed/08-practice-test.detailed.md) |
 | Detailed Practice Test 09 | 241–270 | [Start Quiz](https://forms.office.com/r/vKhDEH4PW6) | [Start Quiz](https://forms.office.com/r/htJMM9SQsb) | [Answer Sheet & Explanation](./source/docs/practice/detailed/09-practice-test.detailed.md) |
 | Detailed Practice Test 10 | 271–300 | [Start Quiz](https://forms.office.com/r/ZDzLC13pgi) | [Start Quiz](https://forms.office.com/r/srGn1jyvdU) | [Answer Sheet & Explanation](./source/docs/practice/detailed/10-practice-test.detailed.md) |
-
 
 ### Raw Practice Tests (Answer Sheet) (300 Questions)
 

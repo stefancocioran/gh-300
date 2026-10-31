@@ -62,6 +62,29 @@ Copilot Spaces provide a curated, task-specific context designed to improve accu
 
 Spaces improve response quality by narrowing context to only what matters.
 
+## Practical GH-300 Study Space Example
+
+A simple and effective way to use a Copilot Space in this repository is to create a study-focused space around the GH-300 materials.
+
+### Recommended sources
+
+Use a small, relevant set of sources rather than attaching the entire repository indiscriminately:
+
+- `README.md` for the high-level overview and navigation
+- `source/docs/kb/` for the core topic knowledge documents
+- `source/docs/practice/raw/` if you want to review question sets and answer patterns
+- a few targeted docs for the specific GH-300 topics you are revising
+
+### Example instructions for the Space
+
+Use a prompt like this:
+
+> Act as a GH-300 study coach. Use the attached repository context to explain the most important concepts for GitHub Copilot, focus on exam-relevant distinctions, and help me identify weak areas before my next practice test. Keep answers concise, practical, and aligned to GitHub Copilot features and exam scenarios.
+
+### Why this pattern works
+
+This approach keeps the Space focused on a specific aim, which improves relevance and reduces noise. It also mirrors the core principle behind Copilot Spaces: curated context leads to better answers than asking the model to infer the right context from a broad or unrelated set of files.
+
 ## Spaces vs Knowledge Bases
 
 Spaces and Knowledge Bases serve different purposes.
